@@ -1,2 +1,2 @@
 # patterns
-Common programming patterns used in object orientated coding.
+Examples of useful patterns to know when coding.
