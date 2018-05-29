@@ -1,4 +1,4 @@
-package com.demott.patterns.behavioral.state;
+package com.demott.patterns.behavioral.state.tvstates;
 
 public class TVStopState implements State {
 
