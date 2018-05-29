@@ -1,11 +1,12 @@
 package com.demott.patterns.behavioral.command;
 
-import com.demott.patterns.behavioral.command.commands.SendEmailCommand;
-import com.demott.patterns.behavioral.command.delegates.EmailContainer;
+import com.demott.patterns.behavioral.command.commands.base.Command;
+import com.demott.patterns.behavioral.command.commands.email.EmailContainer;
+import com.demott.patterns.behavioral.command.commands.email.SendEmailCommand;
 
 public class Main {
 
-    EmailContainer emailContainer;
+    private EmailContainer emailContainer;
 
     public static void main(String[] args) {
         Main main = new Main();

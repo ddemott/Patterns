@@ -1,4 +1,4 @@
-package com.demott.patterns.behavioral.command.delegates;
+package com.demott.patterns.behavioral.command.commands.email;
 
 public class EmailContainer {
 

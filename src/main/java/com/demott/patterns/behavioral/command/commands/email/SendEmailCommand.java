@@ -1,7 +1,6 @@
-package com.demott.patterns.behavioral.command.commands;
+package com.demott.patterns.behavioral.command.commands.email;
 
-import com.demott.patterns.behavioral.command.Command;
-import com.demott.patterns.behavioral.command.delegates.EmailContainer;
+import com.demott.patterns.behavioral.command.commands.base.Command;
 
 public class SendEmailCommand implements Command {
 
@@ -13,6 +12,7 @@ public class SendEmailCommand implements Command {
 
     @Override
     public void execute() {
+        /** Email configuration, setup and sending of email code goes here. **/
         System.out.println("FROM:" + emailContainer.getFrom());
         System.out.println("TO:" + emailContainer.getTo());
         System.out.println("SUBJECT:" + emailContainer.getSubject());
